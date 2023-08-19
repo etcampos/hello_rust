@@ -4,7 +4,7 @@ use std::io::{stdout, BufWriter};
 
 fn main() {
     let stdout = stdout();
-    let message = String::from("Hello fellow Rustaceans");
+    let message = String::from("Hello fellow Rustaceans, you are now in Dev");
     let width = message.chars().count();
 
     let mut writer = BufWriter::new(stdout.lock());
